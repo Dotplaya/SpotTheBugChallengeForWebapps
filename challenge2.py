@@ -1,3 +1,7 @@
+# Challenge:
+# You are performing a code review for an online voting system. Your task is to identify and address any potential 
+#  vulnerabilities in the codebase.
+
 @app.route("/vote", methods=["POST"])
 def vote():
     candidate_id = request.form.get("candidate_id")
